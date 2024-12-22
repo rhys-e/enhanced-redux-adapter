@@ -1,0 +1,21 @@
+{
+  "name": "enhanced-redux-adapter",
+  "version": "0.0.1",
+  "description": "A RTK-ish enhanced entity adapter with additional convenience methods",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "main": "dist/enhancedAdapter.cjs.js",
+  "module": "dist/enhancedAdapter.es.js",
+  "types": "dist/types/enhancedAdapter.d.ts",
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3",
+    "vite-plugin-dts": "^4.4.0"
+  },
+  "author": "@rhys-e",
+  "license": "MIT"
+}

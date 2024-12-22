@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Latest ECMAScript features
+    "module": "ESNext", // Use ES Modules
+    "declaration": true, // Generate declaration files
+    "declarationDir": "dist/types", // Output folder for .d.ts files
+    "outDir": "dist", // Output folder for compiled files
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enable interop between CommonJS and ES Modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "moduleResolution": "Node", // Resolve modules like Node.js
+    "isolatedModules": true, // Enforces strict module boundaries
+    "forceConsistentCasingInFileNames": true // Ensure consistent file naming
+  },
+  "include": ["src"], // Include your source files
+  "exclude": ["node_modules", "dist"] // Exclude irrelevant files
+}
